@@ -11,18 +11,18 @@
 	<form method="post" action="submit_feedback.php">
 	 <div>
 	 <label for="name">Name:</label>
-	<input type="text" id="name" minlength="3", maxlength="50", required>
+	<input type="text" id="name" name="name" minlength="3", maxlength="50", required>
 	 </div>
 		<div>
 			<lable for="portfolio">Portfolio</lable>
-	<input type="url" id="portfolio" required>
+	<input type="url" id="portfolio" name="portfolio" required>
 	 </div>
 		<div>
 			<lable for="favColor">Favorite Color</lable>
-	<input type="color" id="favColor" required>
+	<input type="color" id="favColor" name="favColor" required>
 	 </div>
 		<div><lable for="likeness">Likeness</lable>
-	<input type="range" id="likeness" min="1", max="100" required>
+	<input type="range" id="likeness" name="likeness" min="1", max="100" required>
 	 </div>
 		<div><button type="submit">Submit</button>
 	 </div>
