@@ -7,6 +7,21 @@
 </head>
 
 <body>
+	<h1>Feedback Form</h1>
+	<form method="post" action="submit_feedback.php">
+	 <div>
+	<lable for="name">Name</lable>
+	<input type="text" id="name" minlength="3", maxlength="50", required>
+	 </div><div><lable for="portfolio">Portfolio</lable>
+	<input type="url" id="portfolio" required>
+	 </div><div><lable for="favColor">Favorite Color</lable>
+	<input type="color" id="favColor" required>
+	 </div><div><lable for="likeness">Likeness</lable>
+	<input type="range" id="likeness" min="1", max="100" required>
+	 </div><div><button type="submit">Submit</button>
+	 </div>
+	</form>
+	
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
